@@ -42,7 +42,7 @@ const SingleMoviePage = ()=> {
         };
 
         fetchMovie();
-    }, []);
+    }, [id]);
 
     const prevPageLocation = location.state?.prevPageLocation || "/";
 
