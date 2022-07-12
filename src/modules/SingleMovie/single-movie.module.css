@@ -1,0 +1,7 @@
+.movieContent {
+    display: flex;
+}
+
+.movieTextContent {
+    margin-left: 25px;
+}

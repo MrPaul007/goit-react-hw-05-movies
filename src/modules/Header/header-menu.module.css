@@ -1,0 +1,35 @@
+.section {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-bottom: 25px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: rgb(43, 0, 255);
+}
+
+.link {
+    width: 50px;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(107, 134, 178);
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid rgb(107, 134, 178);
+    border-radius: 7%;
+}
+
+.linkActive {
+    composes: link;
+    color: rgb(27, 37, 36);
+    background-color: rgba(108, 157, 197, 0.387);
+}
